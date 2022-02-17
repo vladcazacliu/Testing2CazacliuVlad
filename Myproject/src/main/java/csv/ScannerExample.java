@@ -11,7 +11,8 @@ public class ScannerExample {
         Scanner scanner = new Scanner(new File("student.csv"));
 
         scanner.useDelimiter("\\|");// \\|
-        //coomment
+        //add comment
+
 
         //Get all tokens and store them in some data structure
         //I am just printing them
