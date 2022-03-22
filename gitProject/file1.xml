@@ -4,16 +4,11 @@
         <firstname>dinkar</firstname>
         <lastname>kad</lastname>
         <nickname>dinkar</nickname>
-        <marks>85</marks>
+        <marks>95</marks>
         <status>married</status>
     </student>
 
-    <student rollno = "493" thesecondattr = "secondattrvalue">
-        <firstname>Vaneet</firstname>
-        <lastname>Gupta</lastname>
-        <nickname>vinni</nickname>
-        <marks>95</marks>
-    </student>
+
 
 
 </class>
