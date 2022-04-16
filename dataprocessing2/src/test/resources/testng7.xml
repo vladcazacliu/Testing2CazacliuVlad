@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestDependency">
+
+    <test name="TestCase1">
+
+        <classes>
+            <class
+                    name="TestNGG.TestApp">
+            </class>
+            <class
+                    name="TestNGG.TestApp">
+            </class>
+            <class
+                    name="TestNGG.TestApp">
+            </class>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="order">
+        <classes>
+            <class name="TestNGG.TestConfig" />
+            <class name="TestNGG.TestOrder">
+                <methods>
+                    <include name="testMakeOrder" />
+                    <include name="testUpdateOrder" />
+                    <!--
+                        <exclude name="testMakeOrder" />
+                     -->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

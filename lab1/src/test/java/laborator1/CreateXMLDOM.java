@@ -24,69 +24,69 @@ public class CreateXMLDOM {
 
             Element commonObjects = doc.createElement("category");
             Attr commonAtr1 = doc.createAttribute("name");
-            commonAtr1.setValue("Aquatic");
+            commonAtr1.setValue("music");
             commonObjects.setAttributeNode(commonAtr1);
             rootElement.appendChild(commonObjects);
 
-            Element plant1 = doc.createElement("music");
+            Element music1 = doc.createElement("music");
             Attr attr1 = doc.createAttribute("tag2ID");
             attr1.setValue("001");
-            plant1.setAttributeNode(attr1);
-            commonObjects.appendChild(plant1);
+            music1.setAttributeNode(attr1);
+            commonObjects.appendChild(music1);
 
-            Element plant11 = doc.createElement("type");
-            plant11.appendChild(doc.createTextNode("Rock"));
-            plant1.appendChild(plant11);
+            Element music11 = doc.createElement("type");
+            music11.appendChild(doc.createTextNode("Rock"));
+            music1.appendChild(music11);
 
-            Element plant21 = doc.createElement("Author");
-            plant21.appendChild(doc.createTextNode("ZZ Top"));
-            plant1.appendChild(plant21);
+            Element music21 = doc.createElement("Author");
+            music21.appendChild(doc.createTextNode("ZZ Top"));
+            music1.appendChild(music21);
 
-            Element plant31 = doc.createElement("Namemusic");
-            plant31.appendChild(doc.createTextNode("La Grange"));
-            plant1.appendChild(plant31);
+            Element music31 = doc.createElement("Namemusic");
+            music31.appendChild(doc.createTextNode("La Grange"));
+            music1.appendChild(music31);
 
-            Element plant41 = doc.createElement("description");
+            Element music41 = doc.createElement("description");
             Element list1 = doc.createElement("desc");
             Element list2 = doc.createElement("desc");
             Element list3 = doc.createElement("desc");
             list1.appendChild(doc.createTextNode("La Grange\" is a song by the American rock group ZZ Top"));
             list2.appendChild(doc.createTextNode("Top's most successful songs, it was released as a single in 1973"));
             list3.appendChild(doc.createTextNode("received extensive radio play, rising to No. 41 on the Billboard Hot 100 in June 1974"));
-            plant41.appendChild(list1);
-            plant41.appendChild(list2);
-            plant41.appendChild(list3);
-            plant1.appendChild(plant41);
+            music41.appendChild(list1);
+            music41.appendChild(list2);
+            music41.appendChild(list3);
+            music1.appendChild(music41);
 
-            Element plant2 = doc.createElement("music");
+            Element music2 = doc.createElement("music");
             Attr attr2 = doc.createAttribute("tag2ID");
             attr2.setValue("002");
-            plant2.setAttributeNode(attr2);
-            commonObjects.appendChild(plant2);
+            music2.setAttributeNode(attr2);
+            commonObjects.appendChild(music2);
 
-            Element plant51 = doc.createElement("type");
-            plant51.appendChild(doc.createTextNode("Rock "));
-            plant2.appendChild(plant51);
+            Element music51 = doc.createElement("type");
+            music51.appendChild(doc.createTextNode("Rock "));
+            music2.appendChild(music51);
 
-            Element plant61 = doc.createElement("Author");
-            plant61.appendChild(doc.createTextNode("Alice Cooper"));
-            plant2.appendChild(plant61);
+            Element music61 = doc.createElement("Author");
+            music61.appendChild(doc.createTextNode("Alice Cooper"));
+            music2.appendChild(music61);
 
-            Element plant71 = doc.createElement("Namemusic");
-            plant71.appendChild(doc.createTextNode("School's Out"));
-            plant2.appendChild(plant71);
+            Element music71 = doc.createElement("Namemusic");
+            music71.appendChild(doc.createTextNode("School's Out"));
+            music2.appendChild(music71);
 
-            Element plant81 = doc.createElement("description");
+            Element music81 = doc.createElement("description");
             Element list11 = doc.createElement("desc");
             Element list21 = doc.createElement("desc");
             Element list31 = doc.createElement("desc");
             list11.appendChild(doc.createTextNode("\"School's Out\" is a song first recorded as the title track of Alice Cooper's fifth album. ."));
             list21.appendChild(doc.createTextNode("It was released as the album's only single on April 26, 1972"));
             list31.appendChild(doc.createTextNode("It has been regarded as the band's signature song"));
-            plant81.appendChild(list11);
-            plant81.appendChild(list21);
-            plant81.appendChild(list31);
-            plant2.appendChild(plant81);
+            music81.appendChild(list11);
+            music81.appendChild(list21);
+            music81.appendChild(list31);
+            music2.appendChild(music81);
 
             Element commonObjects1 = doc.createElement("category");
             Attr commonAtr2 = doc.createAttribute("name");
@@ -94,41 +94,41 @@ public class CreateXMLDOM {
             commonObjects1.setAttributeNode(commonAtr2);
             rootElement.appendChild(commonObjects1);
 
-            Element plant3 = doc.createElement("music");
+            Element music3 = doc.createElement("music");
             Attr attr3 = doc.createAttribute("tag2ID");
             attr3.setValue("001");
-            plant3.setAttributeNode(attr3);
-            commonObjects1.appendChild(plant3);
+            music3.setAttributeNode(attr3);
+            commonObjects1.appendChild(music3);
 
-            Element plant111 = doc.createElement("type");
-            plant111.appendChild(doc.createTextNode("Jazz"));
-            plant3.appendChild(plant111);
+            Element music111 = doc.createElement("type");
+            music111.appendChild(doc.createTextNode("Jazz"));
+            music3.appendChild(music111);
 
-            Element plant211 = doc.createElement("Author");
-            plant211.appendChild(doc.createTextNode("Miles Davis"));
-            plant3.appendChild(plant211);
+            Element music211 = doc.createElement("Author");
+            music211.appendChild(doc.createTextNode("Miles Davis"));
+            music3.appendChild(music211);
 
-            Element plant311 = doc.createElement("Namemusic");
-            plant311.appendChild(doc.createTextNode("So What"));
-            plant3.appendChild(plant311);
+            Element music311 = doc.createElement("Namemusic");
+            music311.appendChild(doc.createTextNode("So What"));
+            music3.appendChild(music311);
 
-            Element plant4 = doc.createElement("music");
+            Element music4 = doc.createElement("music");
             Attr attr4 = doc.createAttribute("tag2ID");
             attr4.setValue("002");
-            plant4.setAttributeNode(attr4);
-            commonObjects1.appendChild(plant4);
+            music4.setAttributeNode(attr4);
+            commonObjects1.appendChild(music4);
 
-            Element plant411 = doc.createElement("type");
-            plant411.appendChild(doc.createTextNode("Jazz"));
-            plant4.appendChild(plant411);
+            Element music411 = doc.createElement("type");
+            music411.appendChild(doc.createTextNode("Jazz"));
+            music4.appendChild(music411);
 
-            Element plant511 = doc.createElement("Author");
-            plant511.appendChild(doc.createTextNode("Louis Armstrong"));
-            plant4.appendChild(plant511);
+            Element music511 = doc.createElement("Author");
+            music511.appendChild(doc.createTextNode("Louis Armstrong"));
+            music4.appendChild(music511);
 
-            Element plant611 = doc.createElement("Namemusic");
-            plant611.appendChild(doc.createTextNode("Earl Hines West End Blues"));
-            plant4.appendChild(plant611);
+            Element music611 = doc.createElement("Namemusic");
+            music611.appendChild(doc.createTextNode("Earl Hines West End Blues"));
+            music4.appendChild(music611);
 
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
