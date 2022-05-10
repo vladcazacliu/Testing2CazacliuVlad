@@ -31,10 +31,10 @@ public class QueryXMLDOM {
                     Element eElment = (Element) nNode;
                     System.out.print("\nmusic : ");
                     System.out.println(eElment.getAttribute("tag2ID"));
-                    NodeList plantNameList = eElment.getElementsByTagName("001");
+                    NodeList Namemusic = eElment.getElementsByTagName("001");
 
                     for(int count = 0; count < plantNameList.getLength(); count++){
-                        Node node1 = plantNameList.item(count);
+                        Node node1 = Namemusic.item(count);
 
                         if(node1.getNodeType() == Node.ELEMENT_NODE){
                             Element music = (Element) node1;
