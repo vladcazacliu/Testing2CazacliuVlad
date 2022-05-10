@@ -1,0 +1,2 @@
+Edit File1 from DevA
+  că veți folosi Git pentru a gestiona toate nivelurile de proiecte Java și non-Java. Deci, va fi bine dacă aveți o anumită expunere la ciclul de viață al dezvoltării software și cunoștințe de lucru despre dezvoltarea de aplicații bazate pe web și fără web.
