@@ -1,0 +1,1 @@
+Git este un sistem distribuit de control al reviziilor și de gestionare a codului sursă, cu accent pe viteză.
